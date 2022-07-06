@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `entity_with_uuid`;
+CREATE TABLE `entity_with_uuid` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `uuid` binary(16) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uuid` (`uuid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1138289407 DEFAULT CHARSET=utf8;
+
+
+
